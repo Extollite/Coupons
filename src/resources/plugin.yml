@@ -1,0 +1,21 @@
+name: Coupons
+main: pl.extollite.coupons.Coupons
+version: "${pom.version}"
+api: ["1.0.9"]
+load: POSTWORLD
+authors: ["Extollite"]
+description: Nukkit coupons plugin
+prefix: "Coupons"
+depend:
+  - EssentialsNK
+
+permissions:
+  coupons.command:
+    description: "coupons command permission"
+    default: op
+  fly.command.bypass:
+    description: "fly command bypass permission"
+    default: op
+
+
+

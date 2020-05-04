@@ -1,0 +1,31 @@
+diamond:
+  name: "Diamond Coupon"
+  lore:
+    - "Use this coupon"
+    - "To give everyone 64"
+    - "Diamonds"
+  id: 318
+  message: "%player_name% gave everyone diamond!"
+  commands:
+    - "give %player_name% diamond 64"
+    - "say %player_name% my man"
+haste:
+  name: "Haste Coupon"
+  lore:
+    - "Use this coupon"
+    - "To give for everyone 15 min of"
+    - "Haste Effect"
+  id: 319
+  message: "%player_name% gave everyone Haste Effect!"
+  commands:
+    - "effect %player_name% haste 900 1 true"
+fly:
+  name: "Fly Coupon"
+  lore:
+    - "Use this coupon"
+    - "To give for everyone 15 min of"
+    - "Fly Effect"
+  id: 320
+  message: "%player_name% gave everyone Fly Effect!"
+  commands:
+    - "fly 900"

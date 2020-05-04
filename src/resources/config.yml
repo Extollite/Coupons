@@ -1,0 +1,10 @@
+giveMessage: "You recived %coupon_name%!"
+prefix: "§6[Coupons]§f "
+flyStartDelay: 300 #delay after server restart
+flyBackToWork: "Fly coupon started!"
+flyEndWarning: 5 #counter before fly end
+flyEndWarningMessage: "Fly ends in %time% s!"
+flyEndMessage: "Fly coupon ended!"
+banned-worlds:
+  - world
+banned-worldMessage: "This command is block in this world!"
